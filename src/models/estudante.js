@@ -20,8 +20,8 @@ const model = (body, id = proxId++) => {
             id,
             nome: body.nome,
             endereco: body.endereco,
-            cep: endereco,
-            matricula: body.matricula,
+            cep: body.endereco,
+            matricula: body.matricula, 
             curso: body.curso,
             ano: body.ano
         }
