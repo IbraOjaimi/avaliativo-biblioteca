@@ -1,7 +1,7 @@
 const express = require('express')
-const aluguel_router = require('../routers/aluguel.js')
-const estudante_router = require('../routers/estudante.js')
-const livro_router = require('../routers/livro.js')
+const aluguel_router = require('./routers/aluguel.js')
+const estudante_router = require('./routers/estudante.js')
+const livro_router = require('./routers/livro.js')
 
 const app = express()
 const port = 5000

@@ -1,4 +1,4 @@
-const cep_endereco = require('../middleware/cep_endereco.js')
+const cep_endereco = require('../middlewares/cep_endereco.js')
 
 let proxId = 1;
 
@@ -20,7 +20,7 @@ const model = (body, id = proxId++) => {
             id,
             nome: body.nome,
             endereco: body.endereco,
-            cep: body.endereco,
+            cep: endereco,
             matricula: body.matricula,
             curso: body.curso,
             ano: body.ano

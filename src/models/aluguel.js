@@ -9,8 +9,8 @@ const model = (body, id = nextId++) => {
     let result = data_aluguel.toISOString().split("T")[0]
     console.log(result)
 
-    let devolucao = new Date()
-    let result2 = devolucao.toISOString()
+    let data_devolucao = new Date()
+    let result2 = data_devolucao.toISOString()
     console.log(result2)
 
     if (livro.show(body.livro_id) &&
